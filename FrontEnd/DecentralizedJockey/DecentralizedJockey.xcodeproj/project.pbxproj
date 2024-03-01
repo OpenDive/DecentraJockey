@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7DEFD5B62B8EB71600A83D28 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 7DEFD5B52B8EB71600A83D28 /* RealityKitContent */; };
+		7DEFD5B82B8EB71600A83D28 /* DecentralizedJockeyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEFD5B72B8EB71600A83D28 /* DecentralizedJockeyApp.swift */; };
+		7DEFD5BA2B8EB71600A83D28 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEFD5B92B8EB71600A83D28 /* ContentView.swift */; };
+		7DEFD5BC2B8EB71700A83D28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DEFD5BB2B8EB71700A83D28 /* Assets.xcassets */; };
+		7DEFD5BF2B8EB71700A83D28 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DEFD5BE2B8EB71700A83D28 /* Preview Assets.xcassets */; };
+		7DEFD5E72B8F082100A83D28 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEFD5E62B8F082100A83D28 /* Models.swift */; };
+		7DEFD5E92B9005E400A83D28 /* DJViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEFD5E82B9005E400A83D28 /* DJViewModel.swift */; };
+		7DEFD5F12B916F9700A83D28 /* DecentraJockeyVoterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEFD5F02B916F9700A83D28 /* DecentraJockeyVoterApp.swift */; };
+		7DEFD5F32B916F9700A83D28 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEFD5F22B916F9700A83D28 /* ContentView.swift */; };
+		7DEFD5F52B916F9800A83D28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DEFD5F42B916F9800A83D28 /* Assets.xcassets */; };
+		7DEFD5F82B916F9800A83D28 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DEFD5F72B916F9800A83D28 /* Preview Assets.xcassets */; };
+		7DEFD6072B919B2100A83D28 /* WalletConnect in Frameworks */ = {isa = PBXBuildFile; productRef = 7DEFD6062B919B2100A83D28 /* WalletConnect */; };
+		7DEFD6092B919B2100A83D28 /* WalletConnectAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 7DEFD6082B919B2100A83D28 /* WalletConnectAuth */; };
+		7DEFD60B2B919B2100A83D28 /* WalletConnectModal in Frameworks */ = {isa = PBXBuildFile; productRef = 7DEFD60A2B919B2100A83D28 /* WalletConnectModal */; };
+		7DEFD60D2B919B2100A83D28 /* WalletConnectNetworking in Frameworks */ = {isa = PBXBuildFile; productRef = 7DEFD60C2B919B2100A83D28 /* WalletConnectNetworking */; };
+		7DEFD60F2B919B6D00A83D28 /* WalletConnectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEFD60E2B919B6D00A83D28 /* WalletConnectViewModel.swift */; };
+		7DEFD6112B919B7900A83D28 /* WalletConnectNotify in Frameworks */ = {isa = PBXBuildFile; productRef = 7DEFD6102B919B7900A83D28 /* WalletConnectNotify */; };
+		7DEFD6142B919BD600A83D28 /* Starscream in Frameworks */ = {isa = PBXBuildFile; productRef = 7DEFD6132B919BD600A83D28 /* Starscream */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7DEFD5B02B8EB71600A83D28 /* DecentralizedJockey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DecentralizedJockey.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DEFD5B42B8EB71600A83D28 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		7DEFD5B72B8EB71600A83D28 /* DecentralizedJockeyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecentralizedJockeyApp.swift; sourceTree = "<group>"; };
+		7DEFD5B92B8EB71600A83D28 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7DEFD5BB2B8EB71700A83D28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7DEFD5BE2B8EB71700A83D28 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7DEFD5C02B8EB71700A83D28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DEFD5E62B8F082100A83D28 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		7DEFD5E82B9005E400A83D28 /* DJViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJViewModel.swift; sourceTree = "<group>"; };
+		7DEFD5EE2B916F9700A83D28 /* DecentraJockeyVoter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DecentraJockeyVoter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DEFD5F02B916F9700A83D28 /* DecentraJockeyVoterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecentraJockeyVoterApp.swift; sourceTree = "<group>"; };
+		7DEFD5F22B916F9700A83D28 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7DEFD5F42B916F9800A83D28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7DEFD5F72B916F9800A83D28 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7DEFD60E2B919B6D00A83D28 /* WalletConnectViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletConnectViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7DEFD5AD2B8EB71600A83D28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DEFD5B62B8EB71600A83D28 /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DEFD5EB2B916F9700A83D28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DEFD60B2B919B2100A83D28 /* WalletConnectModal in Frameworks */,
+				7DEFD6092B919B2100A83D28 /* WalletConnectAuth in Frameworks */,
+				7DEFD6112B919B7900A83D28 /* WalletConnectNotify in Frameworks */,
+				7DEFD60D2B919B2100A83D28 /* WalletConnectNetworking in Frameworks */,
+				7DEFD6072B919B2100A83D28 /* WalletConnect in Frameworks */,
+				7DEFD6142B919BD600A83D28 /* Starscream in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7DEFD5A72B8EB71600A83D28 = {
+			isa = PBXGroup;
+			children = (
+				7DEFD5E62B8F082100A83D28 /* Models.swift */,
+				7DEFD5B22B8EB71600A83D28 /* DecentralizedJockey */,
+				7DEFD5B32B8EB71600A83D28 /* Packages */,
+				7DEFD5EF2B916F9700A83D28 /* DecentraJockeyVoter */,
+				7DEFD5B12B8EB71600A83D28 /* Products */,
+				7DEFD6052B919B2100A83D28 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7DEFD5B12B8EB71600A83D28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DEFD5B02B8EB71600A83D28 /* DecentralizedJockey.app */,
+				7DEFD5EE2B916F9700A83D28 /* DecentraJockeyVoter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DEFD5B22B8EB71600A83D28 /* DecentralizedJockey */ = {
+			isa = PBXGroup;
+			children = (
+				7DEFD5B72B8EB71600A83D28 /* DecentralizedJockeyApp.swift */,
+				7DEFD5B92B8EB71600A83D28 /* ContentView.swift */,
+				7DEFD5E82B9005E400A83D28 /* DJViewModel.swift */,
+				7DEFD5BB2B8EB71700A83D28 /* Assets.xcassets */,
+				7DEFD5C02B8EB71700A83D28 /* Info.plist */,
+				7DEFD5BD2B8EB71700A83D28 /* Preview Content */,
+			);
+			path = DecentralizedJockey;
+			sourceTree = "<group>";
+		};
+		7DEFD5B32B8EB71600A83D28 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				7DEFD5B42B8EB71600A83D28 /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		7DEFD5BD2B8EB71700A83D28 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7DEFD5BE2B8EB71700A83D28 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7DEFD5EF2B916F9700A83D28 /* DecentraJockeyVoter */ = {
+			isa = PBXGroup;
+			children = (
+				7DEFD60E2B919B6D00A83D28 /* WalletConnectViewModel.swift */,
+				7DEFD5F02B916F9700A83D28 /* DecentraJockeyVoterApp.swift */,
+				7DEFD5F22B916F9700A83D28 /* ContentView.swift */,
+				7DEFD5F42B916F9800A83D28 /* Assets.xcassets */,
+				7DEFD5F62B916F9800A83D28 /* Preview Content */,
+			);
+			path = DecentraJockeyVoter;
+			sourceTree = "<group>";
+		};
+		7DEFD5F62B916F9800A83D28 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7DEFD5F72B916F9800A83D28 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7DEFD6052B919B2100A83D28 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7DEFD5AF2B8EB71600A83D28 /* DecentralizedJockey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DEFD5C32B8EB71700A83D28 /* Build configuration list for PBXNativeTarget "DecentralizedJockey" */;
+			buildPhases = (
+				7DEFD5AC2B8EB71600A83D28 /* Sources */,
+				7DEFD5AD2B8EB71600A83D28 /* Frameworks */,
+				7DEFD5AE2B8EB71600A83D28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DecentralizedJockey;
+			packageProductDependencies = (
+				7DEFD5B52B8EB71600A83D28 /* RealityKitContent */,
+			);
+			productName = DecentralizedJockey;
+			productReference = 7DEFD5B02B8EB71600A83D28 /* DecentralizedJockey.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7DEFD5ED2B916F9700A83D28 /* DecentraJockeyVoter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DEFD5F92B916F9800A83D28 /* Build configuration list for PBXNativeTarget "DecentraJockeyVoter" */;
+			buildPhases = (
+				7DEFD5EA2B916F9700A83D28 /* Sources */,
+				7DEFD5EB2B916F9700A83D28 /* Frameworks */,
+				7DEFD5EC2B916F9700A83D28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DecentraJockeyVoter;
+			packageProductDependencies = (
+				7DEFD6062B919B2100A83D28 /* WalletConnect */,
+				7DEFD6082B919B2100A83D28 /* WalletConnectAuth */,
+				7DEFD60A2B919B2100A83D28 /* WalletConnectModal */,
+				7DEFD60C2B919B2100A83D28 /* WalletConnectNetworking */,
+				7DEFD6102B919B7900A83D28 /* WalletConnectNotify */,
+				7DEFD6132B919BD600A83D28 /* Starscream */,
+			);
+			productName = DecentraJockeyVoter;
+			productReference = 7DEFD5EE2B916F9700A83D28 /* DecentraJockeyVoter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7DEFD5A82B8EB71600A83D28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					7DEFD5AF2B8EB71600A83D28 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					7DEFD5ED2B916F9700A83D28 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 7DEFD5AB2B8EB71600A83D28 /* Build configuration list for PBXProject "DecentralizedJockey" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7DEFD5A72B8EB71600A83D28;
+			packageReferences = (
+				7DEFD5FC2B919A4900A83D28 /* XCRemoteSwiftPackageReference "WalletConnectSwiftV2" */,
+				7DEFD6122B919BD600A83D28 /* XCRemoteSwiftPackageReference "Starscream" */,
+			);
+			productRefGroup = 7DEFD5B12B8EB71600A83D28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7DEFD5AF2B8EB71600A83D28 /* DecentralizedJockey */,
+				7DEFD5ED2B916F9700A83D28 /* DecentraJockeyVoter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7DEFD5AE2B8EB71600A83D28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DEFD5BF2B8EB71700A83D28 /* Preview Assets.xcassets in Resources */,
+				7DEFD5BC2B8EB71700A83D28 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DEFD5EC2B916F9700A83D28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DEFD5F82B916F9800A83D28 /* Preview Assets.xcassets in Resources */,
+				7DEFD5F52B916F9800A83D28 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7DEFD5AC2B8EB71600A83D28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DEFD5E72B8F082100A83D28 /* Models.swift in Sources */,
+				7DEFD5BA2B8EB71600A83D28 /* ContentView.swift in Sources */,
+				7DEFD5E92B9005E400A83D28 /* DJViewModel.swift in Sources */,
+				7DEFD5B82B8EB71600A83D28 /* DecentralizedJockeyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DEFD5EA2B916F9700A83D28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DEFD60F2B919B6D00A83D28 /* WalletConnectViewModel.swift in Sources */,
+				7DEFD5F32B916F9700A83D28 /* ContentView.swift in Sources */,
+				7DEFD5F12B916F9700A83D28 /* DecentraJockeyVoterApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7DEFD5C12B8EB71700A83D28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Debug;
+		};
+		7DEFD5C22B8EB71700A83D28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Release;
+		};
+		7DEFD5C42B8EB71700A83D28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DecentralizedJockey/Preview Content\"";
+				DEVELOPMENT_TEAM = 96THP2RJA2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.marcodotio.DecentralizedJockey;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Debug;
+		};
+		7DEFD5C52B8EB71700A83D28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DecentralizedJockey/Preview Content\"";
+				DEVELOPMENT_TEAM = 96THP2RJA2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.marcodotio.DecentralizedJockey;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Release;
+		};
+		7DEFD5FA2B916F9800A83D28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DecentraJockeyVoter/Preview Content\"";
+				DEVELOPMENT_TEAM = 96THP2RJA2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.marcodotio.DecentraJockeyVoter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7DEFD5FB2B916F9800A83D28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DecentraJockeyVoter/Preview Content\"";
+				DEVELOPMENT_TEAM = 96THP2RJA2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.marcodotio.DecentraJockeyVoter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7DEFD5AB2B8EB71600A83D28 /* Build configuration list for PBXProject "DecentralizedJockey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DEFD5C12B8EB71700A83D28 /* Debug */,
+				7DEFD5C22B8EB71700A83D28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DEFD5C32B8EB71700A83D28 /* Build configuration list for PBXNativeTarget "DecentralizedJockey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DEFD5C42B8EB71700A83D28 /* Debug */,
+				7DEFD5C52B8EB71700A83D28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DEFD5F92B916F9800A83D28 /* Build configuration list for PBXNativeTarget "DecentraJockeyVoter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DEFD5FA2B916F9800A83D28 /* Debug */,
+				7DEFD5FB2B916F9800A83D28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7DEFD5FC2B919A4900A83D28 /* XCRemoteSwiftPackageReference "WalletConnectSwiftV2" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/WalletConnect/WalletConnectSwiftV2";
+			requirement = {
+				kind = exactVersion;
+				version = 1.8.4;
+			};
+		};
+		7DEFD6122B919BD600A83D28 /* XCRemoteSwiftPackageReference "Starscream" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/daltoniam/Starscream";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7DEFD5B52B8EB71600A83D28 /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+		7DEFD6062B919B2100A83D28 /* WalletConnect */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7DEFD5FC2B919A4900A83D28 /* XCRemoteSwiftPackageReference "WalletConnectSwiftV2" */;
+			productName = WalletConnect;
+		};
+		7DEFD6082B919B2100A83D28 /* WalletConnectAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7DEFD5FC2B919A4900A83D28 /* XCRemoteSwiftPackageReference "WalletConnectSwiftV2" */;
+			productName = WalletConnectAuth;
+		};
+		7DEFD60A2B919B2100A83D28 /* WalletConnectModal */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7DEFD5FC2B919A4900A83D28 /* XCRemoteSwiftPackageReference "WalletConnectSwiftV2" */;
+			productName = WalletConnectModal;
+		};
+		7DEFD60C2B919B2100A83D28 /* WalletConnectNetworking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7DEFD5FC2B919A4900A83D28 /* XCRemoteSwiftPackageReference "WalletConnectSwiftV2" */;
+			productName = WalletConnectNetworking;
+		};
+		7DEFD6102B919B7900A83D28 /* WalletConnectNotify */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7DEFD5FC2B919A4900A83D28 /* XCRemoteSwiftPackageReference "WalletConnectSwiftV2" */;
+			productName = WalletConnectNotify;
+		};
+		7DEFD6132B919BD600A83D28 /* Starscream */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7DEFD6122B919BD600A83D28 /* XCRemoteSwiftPackageReference "Starscream" */;
+			productName = Starscream;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 7DEFD5A82B8EB71600A83D28 /* Project object */;
+}
