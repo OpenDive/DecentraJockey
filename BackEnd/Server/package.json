@@ -1,11 +1,36 @@
 {
-  "name": "decentrajockey",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "nextapp",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.29.0",
+    "@metaplex-foundation/mpl-token-metadata": "^3.2.0",
+    "@metaplex-foundation/umi": "^0.9.1",
+    "@metaplex-foundation/umi-bundle-defaults": "^0.9.1",
+    "@metaplex-foundation/umi-signer-wallet-adapters": "^0.9.1",
+    "@node-rpc/server": "^2.2.0",
+    "@solana/spl-token": "^0.4.1",
+    "axios": "^1.6.7",
+    "dotenv": "^16.4.5",
+    "next": "14.1.0",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.0",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
+  }
 }
