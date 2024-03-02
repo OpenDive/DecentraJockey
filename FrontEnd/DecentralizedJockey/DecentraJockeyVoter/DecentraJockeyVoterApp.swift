@@ -9,9 +9,28 @@ import SwiftUI
 
 @main
 struct DecentraJockeyVoterApp: App {
+    @State var voteViewModel: VoteViewModel = VoteViewModel()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
+                .environmentObject(voteViewModel)
+        }
+    }
+}
+
+struct MainView: View {
+    @EnvironmentObject var voteViewModel: VoteViewModel
+    
+    var body: some View {
+        Group {
+            if voteViewModel.walletAddress == nil {
+                ContentView()
+            } else {
+                NavigationStack {
+                    MainVotingView()
+                }
+            }
         }
     }
 }

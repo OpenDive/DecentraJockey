@@ -67,7 +67,8 @@ struct SongTimestamp {
     }
 }
 
-struct SongVoteItem {
+struct SongVoteItem: Identifiable {
+    let id: String = UUID().uuidString
     let song: SongItem
     let amount: Double
 }

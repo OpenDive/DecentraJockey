@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D4745DA2B925D39002E90F0 /* Base58Swift in Frameworks */ = {isa = PBXBuildFile; productRef = 7D4745D92B925D39002E90F0 /* Base58Swift */; };
+		7D4745E22B92964D002E90F0 /* TweetNacl in Frameworks */ = {isa = PBXBuildFile; productRef = 7D4745E12B92964D002E90F0 /* TweetNacl */; };
+		7D4745E42B929A93002E90F0 /* VoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4745E32B929A93002E90F0 /* VoteViewModel.swift */; };
+		7D4745E52B929AD3002E90F0 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEFD5E62B8F082100A83D28 /* Models.swift */; };
+		7D4745E82B92B5FA002E90F0 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 7D4745E72B92B5FA002E90F0 /* SwiftyJSON */; };
 		7DEFD5B62B8EB71600A83D28 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 7DEFD5B52B8EB71600A83D28 /* RealityKitContent */; };
 		7DEFD5B82B8EB71600A83D28 /* DecentralizedJockeyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEFD5B72B8EB71600A83D28 /* DecentralizedJockeyApp.swift */; };
 		7DEFD5BA2B8EB71600A83D28 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEFD5B92B8EB71600A83D28 /* ContentView.swift */; };
@@ -28,6 +33,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7D4745DB2B925F42002E90F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7D4745E32B929A93002E90F0 /* VoteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoteViewModel.swift; sourceTree = "<group>"; };
 		7DEFD5B02B8EB71600A83D28 /* DecentralizedJockey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DecentralizedJockey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DEFD5B42B8EB71600A83D28 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		7DEFD5B72B8EB71600A83D28 /* DecentralizedJockeyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecentralizedJockeyApp.swift; sourceTree = "<group>"; };
@@ -58,6 +65,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D4745E82B92B5FA002E90F0 /* SwiftyJSON in Frameworks */,
+				7D4745E22B92964D002E90F0 /* TweetNacl in Frameworks */,
+				7D4745DA2B925D39002E90F0 /* Base58Swift in Frameworks */,
 				7DEFD60B2B919B2100A83D28 /* WalletConnectModal in Frameworks */,
 				7DEFD6092B919B2100A83D28 /* WalletConnectAuth in Frameworks */,
 				7DEFD6112B919B7900A83D28 /* WalletConnectNotify in Frameworks */,
@@ -123,8 +133,10 @@
 		7DEFD5EF2B916F9700A83D28 /* DecentraJockeyVoter */ = {
 			isa = PBXGroup;
 			children = (
+				7D4745DB2B925F42002E90F0 /* Info.plist */,
 				7DEFD60E2B919B6D00A83D28 /* WalletConnectViewModel.swift */,
 				7DEFD5F02B916F9700A83D28 /* DecentraJockeyVoterApp.swift */,
+				7D4745E32B929A93002E90F0 /* VoteViewModel.swift */,
 				7DEFD5F22B916F9700A83D28 /* ContentView.swift */,
 				7DEFD5F42B916F9800A83D28 /* Assets.xcassets */,
 				7DEFD5F62B916F9800A83D28 /* Preview Content */,
@@ -190,6 +202,9 @@
 				7DEFD60C2B919B2100A83D28 /* WalletConnectNetworking */,
 				7DEFD6102B919B7900A83D28 /* WalletConnectNotify */,
 				7DEFD6132B919BD600A83D28 /* Starscream */,
+				7D4745D92B925D39002E90F0 /* Base58Swift */,
+				7D4745E12B92964D002E90F0 /* TweetNacl */,
+				7D4745E72B92B5FA002E90F0 /* SwiftyJSON */,
 			);
 			productName = DecentraJockeyVoter;
 			productReference = 7DEFD5EE2B916F9700A83D28 /* DecentraJockeyVoter.app */;
@@ -225,6 +240,9 @@
 			packageReferences = (
 				7DEFD5FC2B919A4900A83D28 /* XCRemoteSwiftPackageReference "WalletConnectSwiftV2" */,
 				7DEFD6122B919BD600A83D28 /* XCRemoteSwiftPackageReference "Starscream" */,
+				7D4745D82B925D38002E90F0 /* XCRemoteSwiftPackageReference "Base58Swift" */,
+				7D4745E02B92964D002E90F0 /* XCRemoteSwiftPackageReference "tweetnacl-swiftwrap" */,
+				7D4745E62B92B5FA002E90F0 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
 			);
 			productRefGroup = 7DEFD5B12B8EB71600A83D28 /* Products */;
 			projectDirPath = "";
@@ -273,9 +291,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D4745E42B929A93002E90F0 /* VoteViewModel.swift in Sources */,
 				7DEFD60F2B919B6D00A83D28 /* WalletConnectViewModel.swift in Sources */,
 				7DEFD5F32B916F9700A83D28 /* ContentView.swift in Sources */,
 				7DEFD5F12B916F9700A83D28 /* DecentraJockeyVoterApp.swift in Sources */,
+				7D4745E52B929AD3002E90F0 /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,6 +488,7 @@
 				DEVELOPMENT_TEAM = 96THP2RJA2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DecentraJockeyVoter/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -499,6 +520,7 @@
 				DEVELOPMENT_TEAM = 96THP2RJA2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DecentraJockeyVoter/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -552,6 +574,30 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		7D4745D82B925D38002E90F0 /* XCRemoteSwiftPackageReference "Base58Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/keefertaylor/Base58Swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.14;
+			};
+		};
+		7D4745E02B92964D002E90F0 /* XCRemoteSwiftPackageReference "tweetnacl-swiftwrap" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/bitmark-inc/tweetnacl-swiftwrap";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.0;
+			};
+		};
+		7D4745E62B92B5FA002E90F0 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
 		7DEFD5FC2B919A4900A83D28 /* XCRemoteSwiftPackageReference "WalletConnectSwiftV2" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/WalletConnect/WalletConnectSwiftV2";
@@ -571,6 +617,21 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		7D4745D92B925D39002E90F0 /* Base58Swift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7D4745D82B925D38002E90F0 /* XCRemoteSwiftPackageReference "Base58Swift" */;
+			productName = Base58Swift;
+		};
+		7D4745E12B92964D002E90F0 /* TweetNacl */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7D4745E02B92964D002E90F0 /* XCRemoteSwiftPackageReference "tweetnacl-swiftwrap" */;
+			productName = TweetNacl;
+		};
+		7D4745E72B92B5FA002E90F0 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7D4745E62B92B5FA002E90F0 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
 		7DEFD5B52B8EB71600A83D28 /* RealityKitContent */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = RealityKitContent;
